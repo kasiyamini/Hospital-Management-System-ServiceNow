@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="efa772c347920f505baf87fe016d43d1" label="Doctors" max_length="40" name="x_1959076_hospit_0_doctors" type="collection">
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Consultation Fee" max_length="38" name="consultation_fee" type="decimal"/>
+        <element label="Experience" max_length="40" name="experience" type="integer"/>
+        <element label="Mobile Number" max_length="40" name="mobile_number" type="phone_number_e164"/>
+        <element label="Qualification" max_length="40" name="qualification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Availability" max_length="40" name="availability" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Onleave" sequence="2" value="onleave"/>
+                <element inactive_on_update="false" label="Busy" sequence="1" value="busy"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+            </choice>
+        </element>
+        <element label="Specialization" max_length="40" name="specialization" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="inactive"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Department" max_length="32" name="department" reference="x_1959076_hospit_0_departments" type="reference"/>
+        <element label="Doctor Name" max_length="40" name="doctor_name" type="string"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

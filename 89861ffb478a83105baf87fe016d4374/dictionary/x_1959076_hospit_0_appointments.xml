@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="2bda3e4b47920f505baf87fe016d4318" label="Appointments" max_length="40" name="x_1959076_hospit_0_appointments" type="collection">
+        <element label="Reason for Visit" max_length="40" name="reason_for_visit" type="string"/>
+        <element label="Appointment Time" max_length="40" name="appointment_time" type="calendar_date_time"/>
+        <element label="Appointment Date" max_length="40" name="appointment_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_1959076_hospit_0_patients" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="1" label="Appointment Status" max_length="40" name="appointment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+                <element inactive_on_update="false" label="Confirmed" sequence="1" value="confirmed"/>
+                <element inactive_on_update="false" label="Required" sequence="0" value="required"/>
+            </choice>
+        </element>
+        <element choice="3" label="Consultation Type" max_length="40" name="consultation_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Emergency" sequence="2" value="emergency"/>
+                <element inactive_on_update="false" label="Specialist Consultation" sequence="3" value="specialist_consultation"/>
+                <element inactive_on_update="false" label="Follow-up" sequence="1" value="follow_up"/>
+                <element inactive_on_update="false" label="General Checkup" sequence="0" value="general_checkup"/>
+            </choice>
+        </element>
+        <element label="Doctor" max_length="32" name="doctor" reference="x_1959076_hospit_0_doctors" type="reference"/>
+        <index name="index">
+            <element name="doctor"/>
+        </index>
+        <index name="index2">
+            <element name="patient"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

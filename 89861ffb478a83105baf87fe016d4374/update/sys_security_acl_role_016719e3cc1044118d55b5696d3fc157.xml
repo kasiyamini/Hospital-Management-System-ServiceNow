@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
-  <sys_security_acl_role action="INSERT_OR_UPDATE">
-    <sys_id>016719e3cc1044118d55b5696d3fc157</sys_id>
-    <sys_scope display_value="x_1959076_hospit_0">89861ffb478a83105baf87fe016d4374</sys_scope>
-    <sys_update_name>sys_security_acl_role_016719e3cc1044118d55b5696d3fc157</sys_update_name>
-    <sys_security_acl>560d4d327a5545d6a42e3f2ec40e3e00</sys_security_acl>
-    <sys_user_role>057e091347164f505baf87fe016d432e</sys_user_role>
-  </sys_security_acl_role>
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-03 04:52:04</sys_created_on>
+        <sys_id>016719e3cc1044118d55b5696d3fc157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1959076_hospit_0_appointments.x_1959076_hospit_0.Hospital_Admin</sys_name>
+        <sys_package display_value="Hospital Management System" source="x_1959076_hospit_0">89861ffb478a83105baf87fe016d4374</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital Management System">89861ffb478a83105baf87fe016d4374</sys_scope>
+        <sys_security_acl display_value="x_1959076_hospit_0_appointments">560d4d327a5545d6a42e3f2ec40e3e00</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_016719e3cc1044118d55b5696d3fc157</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-03 04:52:04</sys_updated_on>
+        <sys_user_role display_value="x_1959076_hospit_0.Hospital_Admin" name="x_1959076_hospit_0.Hospital_Admin">057e091347164f505baf87fe016d432e</sys_user_role>
+    </sys_security_acl_role>
 </record_update>

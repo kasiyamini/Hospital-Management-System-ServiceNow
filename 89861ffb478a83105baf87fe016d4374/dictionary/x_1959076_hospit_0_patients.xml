@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="311fafbf474e83105baf87fe016d4390" label="Patients" max_length="40" name="x_1959076_hospit_0_patients" type="collection">
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Medical History" max_length="100" name="medical_history" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Patient-Id" max_length="40" name="patient_id" type="float"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Aadhaar Number (or National ID)" max_length="40" name="aadhaar_number_or_national_id" type="string"/>
+        <element choice="3" label="Status" max_length="255" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Admitted" sequence="1" value="admitted"/>
+                <element inactive_on_update="false" label="Discharged" sequence="3" value="discharged"/>
+                <element inactive_on_update="false" label="Under Treatment" sequence="2" value="under_treatment"/>
+                <element inactive_on_update="false" label="Registered" sequence="0" value="registered"/>
+            </choice>
+        </element>
+        <element label="Mobile Number" max_length="40" name="mobile_number" type="phone_number_e164"/>
+        <element label="Allergies" max_length="100" name="allergies" type="string"/>
+        <element label="Address" max_length="40" name="address" type="address_simple"/>
+        <element label="Emergency Contact Number" max_length="40" name="emergency_contact_number" type="phone_number_e164"/>
+        <element label="Insurance Number" max_length="40" name="insurance_number" type="string"/>
+        <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="Insurance Provider" max_length="40" name="insurance_provider" type="string"/>
+        <element label="Registration Date" max_length="40" name="registration_date" type="glide_date_time"/>
+        <element choice="3" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="male" sequence="1" value="male"/>
+                <element inactive_on_update="false" label="female" sequence="0" value="female"/>
+                <element inactive_on_update="false" label="prefer not to say" sequence="2" value="prefer_not_to_say"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element choice="1" label="Blood Group" max_length="40" name="blood_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AB" sequence="6" value="ab"/>
+                <element inactive_on_update="false" label="B" sequence="2" value="b"/>
+                <element inactive_on_update="false" label="A" sequence="0" value="a"/>
+                <element inactive_on_update="false" label="O" sequence="4" value="o"/>
+            </choice>
+        </element>
+        <element label="Emergency Contact Name" max_length="40" name="emergency_contact_name" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
