@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1959076_hospit_0_patients">
+  <x_1959076_hospit_0_patients action="INSERT_OR_UPDATE">
+    <sys_id>2e97b36b17454480828a90828dbfc0e8</sys_id>
+    <sys_scope display_value="x_1959076_hospit_0">89861ffb478a83105baf87fe016d4374</sys_scope>
+    <sys_update_name>x_1959076_hospit_0_patients_2e97b36b17454480828a90828dbfc0e8</sys_update_name>
+    <address>789 Lake Road, Bangalore</address>
+    <blood_group>B+</blood_group>
+    <date_of_birth>1995-03-10</date_of_birth>
+    <email>arjun.patel@email.com</email>
+    <first_name>Arjun</first_name>
+    <gender>male</gender>
+    <last_name>Patel</last_name>
+    <mobile_number>9900000003</mobile_number>
+    <status>active</status>
+  </x_1959076_hospit_0_patients>
+</record_update>

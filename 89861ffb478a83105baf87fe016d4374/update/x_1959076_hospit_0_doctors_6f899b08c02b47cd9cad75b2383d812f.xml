@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1959076_hospit_0_doctors">
+  <x_1959076_hospit_0_doctors action="INSERT_OR_UPDATE">
+    <sys_id>6f899b08c02b47cd9cad75b2383d812f</sys_id>
+    <sys_scope display_value="x_1959076_hospit_0">89861ffb478a83105baf87fe016d4374</sys_scope>
+    <sys_update_name>x_1959076_hospit_0_doctors_6f899b08c02b47cd9cad75b2383d812f</sys_update_name>
+    <availability>available</availability>
+    <consultation_fee>700</consultation_fee>
+    <department>dbe371091c7747488aa39673e35f8326</department>
+    <doctor_name>Dr. John</doctor_name>
+    <email>dr.john@hospital.com</email>
+    <experience>8</experience>
+    <mobile_number>9800000002</mobile_number>
+    <qualification>MBBS, DM Cardiology</qualification>
+    <specialization>Cardiology</specialization>
+    <status>active</status>
+  </x_1959076_hospit_0_doctors>
+</record_update>

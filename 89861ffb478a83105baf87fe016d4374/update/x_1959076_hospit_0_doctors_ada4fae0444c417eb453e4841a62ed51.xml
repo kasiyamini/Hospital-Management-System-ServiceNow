@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1959076_hospit_0_doctors">
+  <x_1959076_hospit_0_doctors action="INSERT_OR_UPDATE">
+    <sys_id>ada4fae0444c417eb453e4841a62ed51</sys_id>
+    <sys_scope display_value="x_1959076_hospit_0">89861ffb478a83105baf87fe016d4374</sys_scope>
+    <sys_update_name>x_1959076_hospit_0_doctors_ada4fae0444c417eb453e4841a62ed51</sys_update_name>
+    <availability>available</availability>
+    <consultation_fee>800</consultation_fee>
+    <department>1d8592bc62b24b6cae22a8d89106aec8</department>
+    <doctor_name>Dr. Alice</doctor_name>
+    <email>dr.alice@hospital.com</email>
+    <experience>12</experience>
+    <mobile_number>9800000003</mobile_number>
+    <qualification>MBBS, DM Neurology</qualification>
+    <specialization>Neurology</specialization>
+    <status>active</status>
+  </x_1959076_hospit_0_doctors>
+</record_update>

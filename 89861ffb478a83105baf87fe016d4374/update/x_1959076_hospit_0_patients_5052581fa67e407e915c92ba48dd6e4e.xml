@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1959076_hospit_0_patients">
+  <x_1959076_hospit_0_patients action="INSERT_OR_UPDATE">
+    <sys_id>5052581fa67e407e915c92ba48dd6e4e</sys_id>
+    <sys_scope display_value="x_1959076_hospit_0">89861ffb478a83105baf87fe016d4374</sys_scope>
+    <sys_update_name>x_1959076_hospit_0_patients_5052581fa67e407e915c92ba48dd6e4e</sys_update_name>
+    <address>321 Hill View, Chennai</address>
+    <blood_group>AB+</blood_group>
+    <date_of_birth>1992-11-05</date_of_birth>
+    <email>sneha.gupta@email.com</email>
+    <first_name>Sneha</first_name>
+    <gender>female</gender>
+    <last_name>Gupta</last_name>
+    <mobile_number>9900000004</mobile_number>
+    <status>active</status>
+  </x_1959076_hospit_0_patients>
+</record_update>

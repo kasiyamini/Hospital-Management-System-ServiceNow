@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1959076_hospit_0_appointments">
+  <x_1959076_hospit_0_appointments action="INSERT_OR_UPDATE">
+    <sys_id>c74a123f94da46b5b030cc1c9d404f41</sys_id>
+    <sys_scope display_value="x_1959076_hospit_0">89861ffb478a83105baf87fe016d4374</sys_scope>
+    <sys_update_name>x_1959076_hospit_0_appointments_c74a123f94da46b5b030cc1c9d404f41</sys_update_name>
+    <appointment_date>2025-08-04</appointment_date>
+    <appointment_status>cancelled</appointment_status>
+    <appointment_time>09:30:00</appointment_time>
+    <consultation_type>in_person</consultation_type>
+    <doctor>ada4fae0444c417eb453e4841a62ed51</doctor>
+    <patient>5052581fa67e407e915c92ba48dd6e4e</patient>
+    <reason_for_visit>Migraine issues</reason_for_visit>
+  </x_1959076_hospit_0_appointments>
+</record_update>

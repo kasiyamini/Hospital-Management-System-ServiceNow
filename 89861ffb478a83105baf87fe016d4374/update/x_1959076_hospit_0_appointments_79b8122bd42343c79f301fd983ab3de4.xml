@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1959076_hospit_0_appointments">
+  <x_1959076_hospit_0_appointments action="INSERT_OR_UPDATE">
+    <sys_id>79b8122bd42343c79f301fd983ab3de4</sys_id>
+    <sys_scope display_value="x_1959076_hospit_0">89861ffb478a83105baf87fe016d4374</sys_scope>
+    <sys_update_name>x_1959076_hospit_0_appointments_79b8122bd42343c79f301fd983ab3de4</sys_update_name>
+    <appointment_date>2025-08-03</appointment_date>
+    <appointment_status>confirmed</appointment_status>
+    <appointment_time>14:00:00</appointment_time>
+    <consultation_type>in_person</consultation_type>
+    <doctor>ab3e751203914b0eb9a096c01b39fd49</doctor>
+    <patient>2e97b36b17454480828a90828dbfc0e8</patient>
+    <reason_for_visit>Fever and body ache</reason_for_visit>
+  </x_1959076_hospit_0_appointments>
+</record_update>
