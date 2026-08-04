@@ -1,211 +1,253 @@
 # 🏥 Hospital Management System - ServiceNow
 
-## 📌 Project Overview
+> A custom Hospital Management System built using **ServiceNow App Engine** to automate hospital operations through low-code development, workflow automation, reporting, and role-based access control.
 
-The **Hospital Management System** is a ServiceNow-based application developed to automate and streamline hospital operations. This application provides a centralized platform to manage patients, doctors, appointments, medical records, workflows, and hospital-related activities.
-
-The project is developed using the **ServiceNow App Engine Platform** with custom tables, business rules, client scripts, UI actions, Flow Designer, ACLs, reports, and dashboards.
-
----
-
-## 🎯 Objectives
-
-- Automate hospital management processes
-- Maintain digital patient and doctor records
-- Reduce manual paperwork
-- Improve appointment scheduling and tracking
-- Provide dashboards for better monitoring
-- Implement real-world ServiceNow application development practices
+![ServiceNow](https://img.shields.io/badge/Platform-ServiceNow-green)
+![App Engine](https://img.shields.io/badge/App-Engine-blue)
+![Flow Designer](https://img.shields.io/badge/Automation-Flow%20Designer-orange)
+![Status](https://img.shields.io/badge/Project-Completed-success)
 
 ---
 
-## 🛠️ Technologies Used
+# 📌 Project Overview
 
-- ServiceNow Platform
-- ServiceNow Studio
-- App Engine Studio
-- JavaScript
-- Flow Designer
-- Custom Tables
-- Business Rules
-- Client Scripts
-- UI Actions
-- Access Control Lists (ACL)
-- Reports and Dashboards
-- GitHub Source Control
+The **Hospital Management System** is a ServiceNow-based enterprise application developed to streamline hospital administration by managing patients, doctors, departments, and appointments in a centralized platform.
+
+This project demonstrates the use of ServiceNow's low-code capabilities including **App Engine Studio**, **Flow Designer**, **Reports**, **Dashboards**, **Roles**, and **Access Control Lists (ACLs)**.
 
 ---
 
-## 📂 Application Modules
+# 🎯 Objectives
 
-### 👤 Patient Management
-
-- Create and manage patient information
-- Store personal and medical details
-- Maintain patient history records
-
-### 👨‍⚕️ Doctor Management
-
-- Manage doctor profiles
-- Store specialization details
-- Track doctor availability
-
-### 📅 Appointment Management
-
-- Schedule appointments
-- Assign doctors to patients
-- Track appointment status
-
-### 🏥 Medical Records Management
-
-- Maintain diagnosis details
-- Store treatment information
-- Manage patient medical history
-
-### 📊 Dashboard & Reports
-
-- Visualize hospital statistics
-- Monitor important activities
-- Generate reports for analysis
+- Digitize hospital management processes
+- Maintain patient records
+- Manage doctor and department information
+- Schedule appointments efficiently
+- Automate appointment workflows
+- Provide dashboards for monitoring hospital operations
+- Secure data using role-based access control
 
 ---
 
-## 🗄️ Database Design
+# ✨ Features
 
-The application contains custom ServiceNow tables:
-
-- Patient Table
-- Doctor Table
-- Appointment Table
-- Medical Records Table
-- Supporting Configuration Tables
-
-Table relationships are created to maintain proper data consistency and workflow management.
-
----
-
-## ⚙️ ServiceNow Features Implemented
-
-### Custom Tables
-
-- Created application-specific tables
-- Configured forms and lists
-- Designed table relationships
-
-### Business Rules
-
-- Implemented server-side automation
-- Added data validation logic
-
-### Client Scripts
-
-- Implemented client-side validations
-- Added dynamic form behavior
-
-### UI Actions
-
-- Created custom buttons and actions
-
-### Flow Designer
-
-- Automated business processes
-- Created workflow automation
-
-### Access Control Lists (ACL)
-
-- Implemented role-based security
-- Controlled user access permissions
-
-### Dashboards
-
-- Created reports and visual analytics
-- Displayed hospital operation insights
+- 👤 Patient Management
+- 👨‍⚕️ Doctor Management
+- 🏥 Department Management
+- 📅 Appointment Scheduling
+- 🔄 Workflow Automation using Flow Designer
+- 📊 Reports & Analytics
+- 📈 Interactive Dashboard
+- 🔐 Roles & ACLs
+- 🔗 Reference Relationships Between Tables
 
 ---
 
-## 🔄 Application Workflow
+# 🏗️ System Architecture
 
-
-Patient Registration
-↓
-Doctor Assignment
-↓
-Appointment Scheduling
-↓
-Medical Record Management
-↓
-Dashboard Monitoring
-
+![Architecture](Screenshots/Architecture.png)
 
 ---
 
-## 🔗 Source Control
+# 🗄️ Database Design
 
-The application is integrated with GitHub using **ServiceNow Source Control Integration**.
+The application consists of four primary tables:
 
-Development workflow:
+| Table | Description |
+|--------|-------------|
+| Patients | Stores patient information |
+| Doctors | Stores doctor details |
+| Departments | Stores department details |
+| Appointments | Stores appointment records |
 
+### Relationships
 
-ServiceNow Studio
-↓
-Commit Changes
-↓
-Push Changes
-↓
-GitHub Repository
-
-
----
-
-## 📸 Screenshots
-
-(Add project screenshots here)
-
-Examples:
-
-- Application Homepage
-- Patient Form
-- Doctor Form
-- Appointment Form
-- Reports
-- Dashboard View
+- Department ➜ Doctors
+- Patient ➜ Appointments
+- Doctor ➜ Appointments
 
 ---
 
-## 🚀 Deployment
+# ⚙️ Workflow Automation
 
-Steps to deploy the application:
+## Flow 1 – Appointment Request Processing
 
-1. Clone or import the ServiceNow application repository.
-2. Connect the application with ServiceNow Source Control.
-3. Apply application changes.
-4. Configure required roles and permissions.
-5. Access the Hospital Management System application.
+Automatically processes newly created appointments.
 
----
+### Steps
 
-## 👨‍💻 Developer
-
-**Your Name**
-
-ServiceNow Developer
-
-Certifications:
-- Certified System Administrator (CSA)
-- Certified Application Developer (CAD)
+- Trigger on Appointment Creation
+- Validate Record
+- Update Appointment Status
+- Notify Users
 
 ---
 
-## 🔮 Future Enhancements
+## Flow 2 – Appointment Confirmation
 
-- Integration with external healthcare systems
-- Automated patient notifications
-- AI-based healthcare recommendations
-- Mobile application support
-- Advanced analytics and reporting
+Automatically sends confirmation email after appointment approval.
+
+### Steps
+
+- Trigger on Status Change
+- Send Email Notification
 
 ---
 
-## 📄 License
+# 🔐 Security
 
-This project is developed for educational and demonstration purposes.
+Implemented Role-Based Access Control using:
+
+- Hospital Admin
+- Doctor
+- Receptionist
+
+ACLs were configured to control:
+
+- Read
+- Create
+- Write
+- Delete
+
+permissions for each role.
+
+---
+
+# 📊 Reports
+
+The following reports were created:
+
+- Patients by Gender
+- Doctors by Department
+- Appointments by Status
+- Appointments by Doctor
+
+---
+
+# 📈 Dashboard
+
+The dashboard provides a quick overview of:
+
+- Total Patients
+- Total Doctors
+- Department Statistics
+- Appointment Analytics
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| ServiceNow | Application Platform |
+| App Engine Studio | Low-Code Development |
+| Flow Designer | Workflow Automation |
+| Reports | Data Analytics |
+| Dashboards | Visualization |
+| ACLs | Security |
+| Roles | User Authorization |
+
+---
+
+# 📂 Repository Structure
+
+```
+Hospital-Management-System-ServiceNow
+│
+├── README.md
+├── Hospital_Management_System_Update_Set.xml
+└── Screenshots
+    ├── Home.png
+    ├── Patients.png
+    ├── Doctors.png
+    ├── Departments.png
+    ├── Appointments.png
+    ├── Flow1.png
+    ├── Flow2.png
+    ├── Reports.png
+    ├── Dashboard.png
+    └── Architecture.png
+```
+
+---
+
+# 🚀 Future Enhancements
+
+- Patient Portal
+- Billing Module
+- Laboratory Management
+- Pharmacy Module
+- Bed Allocation
+- SMS Notifications
+- Email Reminders
+- Doctor Availability Calendar
+
+---
+
+# 📷 Project Screenshots
+
+## Application Home
+
+*(Add Screenshot)*
+
+---
+
+## Patients
+
+*(Add Screenshot)*
+
+---
+
+## Doctors
+
+*(Add Screenshot)*
+
+---
+
+## Departments
+
+*(Add Screenshot)*
+
+---
+
+## Appointments
+
+*(Add Screenshot)*
+
+---
+
+## Flow Designer
+
+*(Add Screenshot)*
+
+---
+
+## Dashboard
+
+*(Add Screenshot)*
+
+---
+
+# 📄 Exported Application
+
+This repository includes the exported ServiceNow Update Set:
+
+**Hospital_Management_System_Update_Set.xml**
+
+---
+
+# 👩‍💻 Developed By
+
+**Kasiyamini**
+
+ServiceNow Certified System Administrator (CSA)
+
+ServiceNow Certified Application Developer (CAD)
+
+---
+
+# ⭐ Acknowledgement
+
+This project was developed for academic learning and to demonstrate ServiceNow application development using App Engine Studio and Flow Designer.
+
+If you found this project helpful, consider giving the repository a ⭐.
