@@ -184,49 +184,6 @@ Hospital-Management-System-ServiceNow
 
 ---
 
-# 📷 Project Screenshots
-
-## Application Home
-
-*(Add Screenshot)*
-
----
-
-## Patients
-
-*(Add Screenshot)*
-
----
-
-## Doctors
-
-*(Add Screenshot)*
-
----
-
-## Departments
-
-*(Add Screenshot)*
-
----
-
-## Appointments
-
-*(Add Screenshot)*
-
----
-
-## Flow Designer
-
-*(Add Screenshot)*
-
----
-
-## Dashboard
-
-*(Add Screenshot)*
-
----
 
 # 📄 Exported Application
 
